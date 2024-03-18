@@ -266,3 +266,27 @@ section {
     height: auto;
   }
 }
+
+.about-cia {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 10px;
+  font-family: 'URW Geometric', sans-serif;
+  font-weight: lighter;
+}
+
+h1 .sub {
+  border-color: #4d9559;
+  border-radius: 3px;
+  width: 180px;
+  display: flex;
+  justify-self: end;
+}
+
+.box{
+  font-family: 'URW Geometric', sans-serif;
+  font-size: 15px;
+  line-height: 2px;
+  letter-spacing: 0.01em;
+}
