@@ -256,6 +256,7 @@ section {
   }
   .navlist.open{
     right: 0;
+    border-radius: 30px;
   }
 }
 
@@ -293,7 +294,7 @@ h1 .sub {
 .container {
   height: initial;
   width: initial;
-  display: grid;
+  display: flex;
   position: relative;
   justify-content: space-between;
   align-items: center;
@@ -335,18 +336,4 @@ h1 .sub {
 
 .visao img {
   width: 70px;
-}
-
-.container a{
-  display: inline-block;
-  color: #fff;
-  background: #4d9559;
-  border: 1px solid transparent;
-  padding: 12px 30px;
-  line-height: 1.4;
-  font-size: 14px;
-  font-weight: 500;
-  border-radius: 30px;
-  text-transform: uppercase;
-  transition: all .55s ease;
 }
