@@ -58,19 +58,18 @@ header {
   height: 100%;
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(245.59deg , #5d655f 0%, #529759 28.53%, #0c0c0c 75.52%);
   background-image: url(./team.png);
   position: relative;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 2rem;
+  align-content: center;
 }
 
 .hero-text .box{
   font-family: 'URW Geometric', sans-serif;
   font-size: 15px;
-  /* letter-spacing: 0.01em; */
 }
 
 section {
@@ -289,4 +288,65 @@ h1 .sub {
   font-size: 15px;
   line-height: 2px;
   letter-spacing: 0.01em;
+}
+
+.container {
+  height: initial;
+  width: initial;
+  display: grid;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  grid-template-columns: repeat(3, 1fr);
+  align-content: center;
+  text-align: left;
+  gap: 5rem;
+}
+
+.visao, .missao, .valores {
+  margin-left: 90px;
+  border: 3px solid #008000;
+  border-radius: 6px;
+  gap: 1px;
+  padding: 40px;
+  font-size: 400;
+  /* align-items: center; */
+  text-align: center;
+}
+
+.hero .missao h3, .visao h3, .valores h3{
+  color: #008000;
+  font-weight: 800;
+  font-size: 35px;
+  font-family: 'URW Geometric', sans-serif;
+}
+
+.hero .missao p, .visao p, .valores p{
+  font-size: 20px;
+  font-family: 'URW Geometric', sans-serif;
+  color: #fff;
+  font-weight: lighter;
+}
+
+.container img {
+  width: 50px;
+}
+
+.visao img {
+  width: 70px;
+}
+
+.container a{
+  display: inline-block;
+  color: #fff;
+  background: #4d9559;
+  border: 1px solid transparent;
+  padding: 12px 30px;
+  line-height: 1.4;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 30px;
+  text-transform: uppercase;
+  transition: all .55s ease;
 }
