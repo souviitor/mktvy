@@ -5,6 +5,7 @@
   font-family: 'URW Geometric' sans-serif;
   list-style: none;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -339,28 +340,29 @@ h1 .sub {
 }
 
 
-.hero1 {
+.hero {
   height: 100%;
   width: 100%;
   min-height: 100vh;
   background-image: url(./team.png);
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   align-items: center;
   align-content: center;
 }
 
-.hero1 h1 {
+.hero h1 {
   font-size: 40px;
-
 }
 
-.hero1 .case{
-  width: 1300px;
-  position: relative;
-  top: 25px;
-  bottom: -20px;
-  left: -400px;
-  
-  z-index: 2;
+.hero .case{
+  width: 1500px;
+  position: absolute;
+  bottom: -200%;
+  left: -25%;
+  z-index: -10001;
 }
+
+/* #soluction .hero-text {
+  z-index: -1001;
+} */
