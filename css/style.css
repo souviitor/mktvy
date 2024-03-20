@@ -337,3 +337,30 @@ h1 .sub {
 .visao img {
   width: 70px;
 }
+
+
+.hero1 {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(./team.png);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.hero1 h1 {
+  font-size: 40px;
+
+}
+
+.hero1 .case{
+  width: 1300px;
+  position: relative;
+  top: 25px;
+  bottom: -20px;
+  left: -400px;
+  
+  z-index: 2;
+}

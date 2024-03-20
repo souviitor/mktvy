@@ -18,3 +18,4 @@ sr.reveal('.hero-img', {delay:450, origin:'top'});
 sr.reveal('.icons', {delay:500, origin:'left'});
 sr.reveal('.scroll-down', {delay:500, origin:'right'});
 sr.reveal('.container', {delay:200, origin:'right'});
+sr.reveal('.case', {delay:200, origin:'right'});
